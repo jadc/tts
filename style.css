@@ -42,7 +42,7 @@ main {
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 
@@ -69,8 +69,6 @@ main {
     background-color: #8a8a8a;
 }
 
-
-
 .disabled {
     color: #a9abab !important;
     cursor: not-allowed !important;
@@ -92,4 +90,8 @@ main {
     bottom: 4.5em;
     text-align: center;
     font-family: monospace;
+}
+
+#limit {
+    width: 6em;
 }
