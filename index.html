@@ -1,6 +1,6 @@
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>brian tts tool</title>
 
         <link rel="stylesheet" href="style.css">
@@ -12,7 +12,15 @@
                     <source id="source" type="audio/wav">
                 </audio>
                 <textarea placeholder="Pepega Clap"></textarea>
-                <button>Generate</button>
+                <div class="count">
+                    <p>0/3000</p>
+                </div>
+                <div class="buttons">
+                    <button id="genBtn" class="toggle disabled">&#9654;</button>
+                    <button class="toggle disabled">&#129095;</button>
+                    <a target="_blank" href="https://docs.google.com/document/d/1qLKdc3QArtn6PVuGf42EfoMuzvLE_ykWwU1RViEcrbU"><button>Guide</button></a>
+                    <button id="limit">No Limit</button>
+                </div>
             </div>
         </main>
         <script src="script.js"></script>
