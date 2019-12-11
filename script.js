@@ -47,7 +47,7 @@ textarea.addEventListener("input", verifyLength);
 let limitBtn = document.getElementById("limit");
 let mode = 0;
 limitBtn.addEventListener("mouseup", _ => {
-    let modes = ["No Limit", "SE", "Cheer"];
+    let modes = ["No Limit", "Stream<br>Elements", "Cheer"];
     mode = mode >= modes.length - 1 ? 0 : mode + 1;
     limitBtn.innerHTML = modes[mode];
 
